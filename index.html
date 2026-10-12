@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Zixuan Fu's academic homepage: large language models, reinforcement learning, data science, and self-evolving language models."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Zixuan Fu · Academic Homepage</title>
+    <link rel="icon" type="image/jpeg" href="assets/profile.jpg" />
+    <link rel="apple-touch-icon" href="assets/profile.jpg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a class="home-link" href="#about">Zixuan Fu</a>
+        <div class="nav-links">
+          <a href="#about">About Me</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell" id="main-content">
+      <aside class="profile-sidebar" aria-label="Profile">
+        <img class="profile-photo" src="assets/profile.jpg" alt="Zixuan Fu（符梓璇）" width="543" height="651" />
+        <h1>Zixuan Fu <span>（符梓璇）</span></h1>
+        <p class="affiliation">Tsinghua University</p>
+        <p class="role">M.S. Student · THUNLP</p>
+        <p class="workplace">Work in ModelBest</p>
+
+        <ul class="profile-links">
+          <li>
+            <a href="mailto:eafanfu@gmail.com"><span aria-hidden="true">✉</span> Email</a>
+          </li>
+        </ul>
+      </aside>
+
+      <div class="content-column">
+        <section class="content-section intro-section" id="about">
+          <h2>
+            <span class="section-icon" aria-hidden="true">◆</span>
+            About Me
+          </h2>
+          <div class="about-copy">
+            <p>
+              Hi! I am Zixuan Fu, an M.S. student in Computer Science and Technology at <a href="https://www.tsinghua.edu.cn/en/" target="_blank" rel="noreferrer">Tsinghua University</a> and a member of <a href="https://nlp.csai.tsinghua.edu.cn/" target="_blank" rel="noreferrer">THUNLP</a>. I received my bachelor's degree in Software Engineering from Soochow University.
+            </p>
+            <p>
+              My research focuses on large language models: reinforcement learning, data science, and self-evolving language models.
+            </p>
+          </div>
+        </section>
+
+        <section class="content-section" id="news">
+          <h2>
+            <span class="section-icon" aria-hidden="true">✦</span>
+            News
+          </h2>
+          <ul class="news-list">
+            <li>
+              <time datetime="2026-09">2026.09</time>
+              <p>
+                <a href="https://huggingface.co/openbmb/MiniCPM5-2B" target="_blank" rel="noreferrer">MiniCPM5-2B</a> is released, along with other open-source byproducts <a href="https://huggingface.co/datasets/openbmb/UltraData-Code" target="_blank" rel="noreferrer">UltraData-Code</a> and <a href="https://huggingface.co/datasets/openbmb/UltraData-RL-2609" target="_blank" rel="noreferrer">UltraData-RL-2609</a>. I am responsible for the SFT-stage code data and the RL-stage code-oriented training.
+              </p>
+            </li>
+            <li>
+              <time datetime="2026-09">2026.09</time>
+              <p>
+                Our work <a href="https://arxiv.org/abs/2609.04172" target="_blank" rel="noreferrer">One-Shot OPD</a> is released, with open-source training recipes and code.
+                <a class="bracket-link" href="https://github.com/Thinking-Space/One-Shot-OPD" target="_blank" rel="noreferrer">[Code]</a>
+              </p>
+            </li>
+            <li>
+              <time datetime="2026-09">2026.09</time>
+              <p>
+                <a href="https://huggingface.co/datasets/openbmb/UltraData-RL-2609" target="_blank" rel="noreferrer">UltraData-RL-2609</a> is released; I am responsible for the code-domain data.
+              </p>
+            </li>
+            <li>
+              <time datetime="2026-05">2026.05</time>
+              <p>
+                <a href="https://huggingface.co/openbmb/MiniCPM5-1B" target="_blank" rel="noreferrer">MiniCPM5-1B</a> and <a href="https://huggingface.co/datasets/openbmb/UltraData-SFT-2605" target="_blank" rel="noreferrer">UltraData-SFT-2605</a> are released; I am responsible for the code-domain SFT data.
+              </p>
+            </li>
+            <li>
+              <time datetime="2026-05">2026.05</time>
+              <p>
+                <a href="https://arxiv.org/abs/2602.02979" target="_blank" rel="noreferrer">CPMobius</a> is accepted to ICML 2026.
+              </p>
+            </li>
+            <li>
+              <time datetime="2026-02">2026.02</time>
+              <p>
+                <a href="https://arxiv.org/abs/2603.08660" target="_blank" rel="noreferrer">How Far Can Unsupervised RLVR Scale LLM Training?</a> is accepted to ICLR 2026.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="publications">
+          <h2>
+            <span class="section-icon" aria-hidden="true">▤</span>
+            Publications
+          </h2>
+          <p class="publication-note">
+            * denotes equal/core contribution, † denotes project lead, and ‡ denotes corresponding author.
+          </p>
+
+          <div class="publications-layout">
+            <div class="pub-categories" role="tablist" aria-label="Publication categories" aria-orientation="vertical">
+              <button class="pub-category is-active" type="button" role="tab" id="cat-rl-opd" aria-controls="pub-rl-opd" aria-selected="true" data-category="rl-opd">
+                RL &amp; OPD <span class="pub-category-count">(3)</span>
+              </button>
+              <button class="pub-category" type="button" role="tab" id="cat-data-science" aria-controls="pub-data-science" aria-selected="false" tabindex="-1" data-category="data-science">
+                Data Science <span class="pub-category-count">(6)</span>
+              </button>
+            </div>
+
+            <div class="pub-panels">
+              <div class="pub-panel is-active" id="pub-rl-opd" role="tabpanel" aria-labelledby="cat-rl-opd">
+                <h3 class="pub-group-title">RL &amp; OPD</h3>
+                <div class="publication-list">
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/one-shot-opd.png" target="_blank" rel="noreferrer"><img src="assets/papers/one-shot-opd.png" alt="First figure of the One-Shot OPD paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2609.04172" target="_blank" rel="noreferrer">Rethinking On-Policy Distillation of Large Language Models II: One Training Example</a></h3>
+                      <p class="authors"><strong>Zixuan Fu*</strong>, Bingxiang He*†‡, Yuxin Zuo*†, Haohuan Huang*, Jinqian Zhang, Ruhang Xiao, Cheng Qian, Qinyu Luo, Huan-ang Gao, Yudong Wang, Zhiyuan Liu, Ning Ding‡, Chaojun Xiao‡</p>
+                      <p class="pub-venue">arXiv 2026</p>
+                      <p class="pub-links">
+                        <a href="https://arxiv.org/abs/2609.04172" target="_blank" rel="noreferrer">[Paper]</a>
+                        <a href="https://github.com/Thinking-Space/One-Shot-OPD" target="_blank" rel="noreferrer">[Code]</a>
+                        <a href="https://huggingface.co/collections/Thinking-Space/one-shot-opd" target="_blank" rel="noreferrer">[HF Collection]</a>
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/cpmobius.png" target="_blank" rel="noreferrer"><img src="assets/papers/cpmobius.png" alt="First figure of the CPMobius paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2602.02979" target="_blank" rel="noreferrer">CPMobius: Iterative Coach-Player Reasoning for Data-Free Reinforcement Learning</a></h3>
+                      <p class="authors">Ran Li*, Zeyuan Liu*, Yinghao Chen, Bingxiang He, Jiarui Yuan, <strong>Zixuan Fu</strong>, Weize Chen, Jinyi Hu, Zhiyuan Liu‡, Maosong Sun</p>
+                      <p class="pub-venue">ICML 2026</p>
+                      <p class="pub-links">
+                        <a href="https://arxiv.org/abs/2602.02979" target="_blank" rel="noreferrer">[Paper]</a>
+                        <a href="https://github.com/thunlp/CPMobius" target="_blank" rel="noreferrer">[Code]</a>
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/unsupervised-rlvr.png" target="_blank" rel="noreferrer"><img src="assets/papers/unsupervised-rlvr.png" alt="First figure of the unsupervised RLVR paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2603.08660" target="_blank" rel="noreferrer">How Far Can Unsupervised RLVR Scale LLM Training?</a></h3>
+                      <p class="authors">Bingxiang He*, Yuxin Zuo*†, Zeyuan Liu*, Shangziqi Zhao*, <strong>Zixuan Fu</strong>, Junlin Yang, Cheng Qian, Kaiyan Zhang, Yuchen Fan, Ganqu Cui, Xiusi Chen, Youbang Sun, Xingtai Lv, Xuekai Zhu, Li Sheng, Ran Li, Huan-ang Gao, Yuchen Zhang, Bowen Zhou‡, Zhiyuan Liu‡, Ning Ding‡</p>
+                      <p class="pub-venue">ICLR 2026</p>
+                      <p class="pub-links"><a href="https://arxiv.org/abs/2603.08660" target="_blank" rel="noreferrer">[Paper]</a></p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <div class="pub-panel" id="pub-data-science" role="tabpanel" aria-labelledby="cat-data-science">
+                <h3 class="pub-group-title">Data Science</h3>
+                <div class="publication-list">
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/mathform.png" target="_blank" rel="noreferrer"><img src="assets/papers/mathform.png" alt="First figure of the MathForm paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2608.14221" target="_blank" rel="noreferrer">MathForm: Scaling Mathematical Autoformalization with Knowledge Retrieval and Verification-Guided Refinement</a></h3>
+                      <p class="authors">Lushi Pu, Weiming Zhang, Xinheng Xie, <strong>Zixuan Fu</strong>, Bingxiang He, Hengyu Zhao, Hongya Lyu, Xin Li, Jie Zhou, Yudong Wang‡</p>
+                      <p class="pub-venue">arXiv 2026</p>
+                      <p class="pub-links">
+                        <a href="https://arxiv.org/abs/2608.14221" target="_blank" rel="noreferrer">[Paper]</a>
+                        <a href="https://huggingface.co/papers/2608.14221" target="_blank" rel="noreferrer">[HF]</a>
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/ultrax.png" target="_blank" rel="noreferrer"><img src="assets/papers/ultrax.png" alt="First figure of the UltraX paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2607.08646" target="_blank" rel="noreferrer">UltraX: Refining Pre-Training Data at Scale with Adaptive Programmatic Editing</a></h3>
+                      <p class="authors">Xinlong Zhao, Dongsheng Liu, Hengyu Zhao, <strong>Zixuan Fu</strong>, Zheng Wang, Jie Cai, Jie Zhou, Qiang Ma, Xuanhe Zhou, Xu Han, Yudong Wang‡, Zhiyuan Liu</p>
+                      <p class="pub-venue">EMNLP 2026</p>
+                      <p class="pub-links">
+                        <a href="https://arxiv.org/abs/2607.08646" target="_blank" rel="noreferrer">[Paper]</a>
+                        <a href="https://huggingface.co/papers/2607.08646" target="_blank" rel="noreferrer">[HF]</a>
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/ma-proofbench.png" target="_blank" rel="noreferrer"><img src="assets/papers/ma-proofbench.png" alt="First figure of the MA-ProofBench paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2606.13782" target="_blank" rel="noreferrer">MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis</a></h3>
+                      <p class="authors">Lushi Pu, Weiming Zhang, Xinheng Xie, <strong>Zixuan Fu</strong>, Bingxiang He, Hongya Lyu, Xin Li, Jie Zhou, Yudong Wang‡</p>
+                      <p class="pub-venue">arXiv 2026</p>
+                      <p class="pub-links">
+                        <a href="https://arxiv.org/abs/2606.13782" target="_blank" rel="noreferrer">[Paper]</a>
+                        <a href="https://huggingface.co/papers/2606.13782" target="_blank" rel="noreferrer">[HF]</a>
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/tiered-data-management.png" target="_blank" rel="noreferrer"><img src="assets/papers/tiered-data-management.png" alt="First figure of the Tiered Data Management paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2602.09003" target="_blank" rel="noreferrer">Data Science and Technology Towards AGI Part I: Tiered Data Management</a></h3>
+                      <p class="authors">Yudong Wang*, <strong>Zixuan Fu*</strong>, Hengyu Zhao*, Chen Zhao*, Chuyue Zhou*, Xinle Lin*, Hongya Lyu, Shuaikang Xue, Yi Yi, Yingjiao Wang, Zhi Zheng, Yuzhou Zhang†, Jie Zhou†‡, Chaojun Xiao‡, Xu Han‡, Zhiyuan Liu‡, Maosong Sun</p>
+                      <p class="pub-venue">arXiv 2026</p>
+                      <p class="pub-links"><a href="https://arxiv.org/abs/2602.09003" target="_blank" rel="noreferrer">[Paper]</a></p>
+                    </div>
+                  </article>
+
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/ultra-fineweb.png" target="_blank" rel="noreferrer"><img src="assets/papers/ultra-fineweb.png" alt="First figure of the Ultra-FineWeb paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2505.05427" target="_blank" rel="noreferrer">Ultra-FineWeb: Efficient Data Filtering and Verification for High-Quality LLM Training Data</a></h3>
+                      <p class="authors">Yudong Wang*, <strong>Zixuan Fu*</strong>, Jie Cai, Peijun Tang, Hongya Lyu, Yewei Fang, Zhi Zheng, Jie Zhou, Guoyang Zeng, Chaojun Xiao, Xu Han, Zhiyuan Liu</p>
+                      <p class="pub-venue">arXiv 2025</p>
+                      <p class="pub-links">
+                        <a href="https://arxiv.org/abs/2505.05427" target="_blank" rel="noreferrer">[Paper]</a>
+                        <a href="https://huggingface.co/datasets/openbmb/Ultra-FineWeb" target="_blank" rel="noreferrer">[Dataset]</a>
+                      </p>
+                    </div>
+                  </article>
+
+                  <article class="publication-item">
+                    <a class="pub-thumb" href="assets/papers/air.png" target="_blank" rel="noreferrer"><img src="assets/papers/air.png" alt="First figure of the AIR paper"></a>
+                    <div class="pub-body">
+                      <h3><a href="https://arxiv.org/abs/2504.03612" target="_blank" rel="noreferrer">AIR: A Systematic Analysis of Annotations, Instructions, and Response Pairs in Preference Dataset</a></h3>
+                      <p class="authors">Bingxiang He*, Wenbin Zhang*, Jiaxi Song, Cheng Qian, <strong>Zixuan Fu</strong>, Bowen Sun, Ning Ding, Haiwen Hong, Longtao Huang, Hui Xue, Ganqu Cui‡, Wanxiang Che‡, Zhiyuan Liu, Maosong Sun</p>
+                      <p class="pub-venue">COLM 2025</p>
+                      <p class="pub-links"><a href="https://arxiv.org/abs/2504.03612" target="_blank" rel="noreferrer">[Paper]</a></p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-section" id="experience">
+          <h2>
+            <span class="section-icon" aria-hidden="true">▦</span>
+            Experience
+          </h2>
+          <div class="experience-head">
+            <div>
+              <h3>ModelBest · Beijing</h3>
+              <p>Algorithm Intern working on data and training for the UltraData and MiniCPM5 series — tiered pre-training data curation, code-domain SFT data, code-oriented general RL, and on-policy distillation.</p>
+            </div>
+            <time>2024.10 — Present</time>
+          </div>
+        </section>
+
+        <section class="content-section" id="education">
+          <h2>
+            <span class="section-icon" aria-hidden="true">▱</span>
+            Education
+          </h2>
+          <div class="education-list">
+            <article>
+              <time>2025.09 — 2028.06</time>
+              <div>
+                <h3>Tsinghua University · Computer Science and Technology</h3>
+                <p>M.S., THUNLP · GPA 4.0/4.0</p>
+              </div>
+            </article>
+            <article>
+              <time>2021.09 — 2025.06</time>
+              <div>
+                <h3>Soochow University · Software Engineering</h3>
+                <p>B.Eng. · GPA 3.92/4.0 · Overall rank 1/95</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <span>© <span id="year">2026</span> Zixuan Fu</span>
+        <a href="#about">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
