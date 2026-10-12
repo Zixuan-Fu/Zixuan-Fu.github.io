@@ -215,6 +215,15 @@ img {
   text-align: center;
 }
 
+.profile-links .email-address {
+  display: block;
+  width: auto;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
 .content-column {
   min-width: 0;
 }
